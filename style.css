@@ -16,6 +16,7 @@ Tags: html5, themplate, landing page, app landing page
 /* 1 - Google Font
 ========================================= */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans Pro:200italic,200,300italic,300,400italic,400,600italic,600,700italic,700,900italic,900);
 
 
 
@@ -25,7 +26,7 @@ Tags: html5, themplate, landing page, app landing page
 body {
     background-color: #34495e;
     color: #c8c8c8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SourceSansPro', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -161,8 +162,11 @@ textarea:focus {
 ========================================= */
 header {
 	/*background: url(images/bg.jpg) 50% 0 no-repeat fixed;*/
-	background: url(images/58-usersthink-stock-image-web.jpg) 50% 0 no-repeat fixed;
-	background-size: cover;
+	background: url(images/58-usersthink-stock-image-web.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .top .photo-slide {
 	max-width: 252px;
